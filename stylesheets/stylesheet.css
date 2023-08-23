@@ -1,0 +1,76 @@
+/* Use SASS together with Python to have ability to change to different color themes CSS files ???
+
+/* CUSTOM STYLE CLASSES */
+
+.heading {
+    font-weight: bold;
+}
+
+.stats_mods {
+    font-size: 14pt;
+}
+
+.saving_throws_modifiers {
+    font-size: 14pt;
+}
+
+.saving_throws_adv_imm_labels {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.load_character_menu_labels {
+    font-weight: bold;
+    font-size: 14pt;
+
+}
+
+/* 
+    .element {
+    background-image: url("./images/_________.jpg");
+ }
+*/
+
+QWidget {
+    color: "white";
+    font-size: 14px;
+    background-color: "#111111";
+}
+
+QGroupBox {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QPushButton {
+    background-color: "#444444";
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: "#666666";
+    font-weight: bold;
+    font-size: 15px;
+}
+
+QPushButton:disabled {
+    background-color: "#222222";
+}
+
+QTextEdit, QLineEdit {
+    background-color: "#bbbbbb";
+    color: "black";
+}
+
+QTextEdit:focus, QLineEdit:focus {
+    background-color: "#eeeeee";
+    color: "black";
+}
+
+AbilityScores {
+    background-color: "#eeeeee";
+}
+
+QStatusBar {
+    font-size: 16px;
+}
