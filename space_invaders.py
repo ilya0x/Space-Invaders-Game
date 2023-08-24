@@ -4,6 +4,7 @@ import random
 import pygame
 from pygame import mixer
 
+
 # Intialize the Pygame
 pygame.init()
 
@@ -177,6 +178,11 @@ while running:
             bulletY = 480
             bullet_state = "ready"
             score_value += 1
+            if enemyX_change[i] > 0:
+                enemyX_change[i] += 1
+            else:
+                enemyX_change[i] -= 1
+            enemyX_change[i] += 1 
             enemyX[i] = random.randint(0, 1856)
             enemyY[i] = random.randint(50, 150)
             # ADD:
