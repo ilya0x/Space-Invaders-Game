@@ -63,21 +63,12 @@ bullet_state = "ready"
 
 # Score
 score_value = 0
-<<<<<<< HEAD
 font = pygame.font.Font('./font/scifi.otf', 32)
-=======
-font = pygame.font.Font('./font/scifi.ttf', 32)
-
->>>>>>> fde0625eb2fb676775a57af953f8b35343bcd35d
 textX = 10
 testY = 10
 
 # Game Over
-<<<<<<< HEAD
 over_font = pygame.font.Font('./font/scifi.otf', 64)
-=======
-over_font = pygame.font.Font('./font/scifi.ttf', 64)
->>>>>>> fde0625eb2fb676775a57af953f8b35343bcd35d
 
 
 def show_score(x, y):
